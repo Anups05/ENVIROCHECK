@@ -1,0 +1,52 @@
+{
+  "model_name": "XGBoost",
+  "r2_score": 0.8344,
+  "mae": 30.529,
+  "rmse": 54.9208,
+  "features": [
+    "PM2.5 (\u00b5g/m\u00b3)",
+    "PM10 (\u00b5g/m\u00b3)",
+    "NO\u2082 (\u00b5g/m\u00b3)",
+    "SO\u2082 (\u00b5g/m\u00b3)",
+    "CO (mg/m\u00b3)",
+    "O\u2083 (\u00b5g/m\u00b3)",
+    "NH\u2083 (\u00b5g/m\u00b3)",
+    "Temperature (\u00b0C)",
+    "Humidity (%)",
+    "Wind Speed (km/h)",
+    "Traffic Density (veh/hr)",
+    "Industrial Activity (0-100)",
+    "Green Cover (%)",
+    "Population Density (per km\u00b2)",
+    "Waste Management Score (0-10)"
+  ],
+  "derived": [
+    "_pollution_index",
+    "_urban_stress",
+    "_env_resilience",
+    "_pm_ratio",
+    "_gas_cocktail"
+  ],
+  "all_features": [
+    "PM2.5 (\u00b5g/m\u00b3)",
+    "PM10 (\u00b5g/m\u00b3)",
+    "NO\u2082 (\u00b5g/m\u00b3)",
+    "SO\u2082 (\u00b5g/m\u00b3)",
+    "CO (mg/m\u00b3)",
+    "O\u2083 (\u00b5g/m\u00b3)",
+    "NH\u2083 (\u00b5g/m\u00b3)",
+    "Temperature (\u00b0C)",
+    "Humidity (%)",
+    "Wind Speed (km/h)",
+    "Traffic Density (veh/hr)",
+    "Industrial Activity (0-100)",
+    "Green Cover (%)",
+    "Population Density (per km\u00b2)",
+    "Waste Management Score (0-10)",
+    "_pollution_index",
+    "_urban_stress",
+    "_env_resilience",
+    "_pm_ratio",
+    "_gas_cocktail"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "model_name": "Random Forest",
+  "features": [
+    "pH",
+    "Hardness",
+    "Solids",
+    "Sulfate",
+    "Chloramines",
+    "Conductivity",
+    "Organic_carbon",
+    "Trihalomethanes",
+    "Turbidity"
+  ],
+  "target": "Potability",
+  "accuracy": 0.7344,
+  "f1_score": 0.8191,
+  "precision": 0.6981,
+  "recall": 0.9907,
+  "roc_auc": 0.6661,
+  "train_size": 6400,
+  "test_size": 1600,
+  "all_models": {
+    "Logistic Regression": {
+      "accuracy": 0.59,
+      "f1": 0.6587,
+      "roc_auc": 0.6103
+    },
+    "Random Forest": {
+      "accuracy": 0.7344,
+      "f1": 0.8191,
+      "roc_auc": 0.6661
+    },
+    "XGBoost": {
+      "accuracy": 0.695,
+      "f1": 0.7774,
+      "roc_auc": 0.6807
+    }
+  }
+}
